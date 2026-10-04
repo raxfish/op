@@ -63,9 +63,9 @@ git clone https://github.com/sbwml/packages_lang_golang -b 27.x feeds/packages/l
 # 科学上网插件
 # git clone -b main https://github.com/Openwrt-Passwall/openwrt-passwall package/psw
 # git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/pswcore
-git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/passwall-packages
-git clone https://github.com/Openwrt-Passwall/openwrt-passwall package/passwall-luci
-git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
+#git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/passwall-packages
+#git clone https://github.com/Openwrt-Passwall/openwrt-passwall package/passwall-luci
+#git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
 # git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
 # git clone --depth=1 https://github.com/fw876/helloworld.git package/luci-app-ssr-plus
 # git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
@@ -87,8 +87,8 @@ git clone --depth=1 -b master https://github.com/pymumu/luci-app-smartdns packag
 git clone --depth=1 https://github.com/pymumu/openwrt-smartdns package/smartdns
 
 # msd_lite
-git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
-git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
+#git clone --depth=1 https://github.com/ximiTech/luci-app-msd_lite package/luci-app-msd_lite
+#git clone --depth=1 https://github.com/ximiTech/msd_lite package/msd_lite
 
 # MosDNS
 git clone --depth=1 https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
@@ -102,8 +102,8 @@ git clone --depth=1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 # git clone --depth=1 https://github.com/sbwml/luci-app-alist package/alist
 
 # DDNS.to
-git_sparse_clone main https://github.com/linkease/nas-packages-luci luci/luci-app-ddnsto
-git_sparse_clone master https://github.com/linkease/nas-packages network/services/ddnsto
+#git_sparse_clone main https://github.com/linkease/nas-packages-luci luci/luci-app-ddnsto
+#git_sparse_clone master https://github.com/linkease/nas-packages network/services/ddnsto
 
 # iStore
 git_sparse_clone main https://github.com/linkease/istore-ui app-store-ui
